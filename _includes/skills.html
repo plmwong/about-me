@@ -3,9 +3,10 @@
 
   <h2 class="section-title"><i class="fa fa-rocket"></i>{{site.data.data.skills.title}}</h2>
 
+  {% for skill-group in site.data.data.skills.skill-groups %}
   <div class="skillset">
 
-    {% for skill in site.data.data.skills.skills %}
+    {% for skill in skill-group.skills %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
@@ -19,6 +20,7 @@
     {% endfor %}
 
   </div>
+  {% endfor %}
 
 </section><!--//skills-section-->
 {% endif %}

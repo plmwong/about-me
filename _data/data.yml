@@ -26,19 +26,17 @@ sidebar:
           item: Snowboarding
           link:
         - interest:
-          item: Video Games
+          item: Basketball
           link:
         - interest:
-          item: Board Games
+          item: Video and Board Games
           link:
 
 
 career-profile: 
-    title: Summary
-    text: '<p>Full-stack software engineer with experience working in a variety of business areas and domains, currently focussed on working in data engineering and data analytics.</p>
-    <p>I enjoy working in small, highly capable and self-driven teams to deliver well crafted software products.</p>
-    <p>I am currently living and working in downtown Vancouver, BC, Canada.</p>'
-
+    title: About
+    text: "<p>New Zealander. Piker extraordinaire. Video game enthusiast. Snowboarding n00b.</p>
+    <p>And I guess a Software Engineer by trade.</p>"
 
 studies: 
     - education:
@@ -58,74 +56,81 @@ studies:
       degree: BSc with First Class Honours in Mathematics and Computer Science
       university: Victoria University of Wellington
       time: 2002 — 2005
-      details: "* Translated GPA 3.92"
+      details: "
+<ul>
+  <li>Translated GPA 3.92</li>
+</ul>"
 
 
 positions:
-    title: Professional Experience
+    title: Work
     
     positions:
       - position:
         title: PayByPhone Technologies Inc. — Data Engineer
         dates: "August 2016 - present"
-        tagline: "Founding member of the Data Services team, creating the 'Data & Insights' analytics applications and services."
+        tagline: "Founding member of the Data Services team, tasked with creating the applications, services and integrations for the new 'Data & Insights' analytics platform."
       - position:
         title: PayByPhone Technologies Inc. — Senior Software Engineer
         dates: "July 2013 - August 2016"
-        tagline: "Working within a small, agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains."
+        tagline: "Worked within a small, agile team, primarily responsible for the development and continuous delivery for apps and services for Patroller Enforcement and Parking Rates calculations."
       - position:
         title: Intergen — Software Developer in Enterprise Applications
         dates: "July 2009 - April 2013"
-        tagline: "Worked as a developer in consulting services, for a wide variety of client companies."
+        tagline: "Developer in a consulting services business, working directly with clients to design and deliver software for their needs."
 
 projects:
-    title: Significant Projects
-    intro: ""
+    title: Play
+    intro: "In addition to the coding I do in my day-to-day, I have a mishmash of small personal/side projects hosted on my Github account: <a href='https://github.com/plmwong'>https://github.com/plmwong</a>"
     
     projects:
       - project:
-        title: PayByPhone Technologies Inc. — Data Engineer
-        link: "#"
-        tagline: "Founding member of the Data Services team, creating the 'Data & Insights' analytics applications and services."
+        title: log4net-raygun
+        link: "https://github.com/plmwong/log4net-raygun"
+        tagline: "A log4net appender which can be used to send logged errors and exceptions to raygun.io."
       - project:
-        title: PayByPhone Technologies Inc. — Senior Software Engineer
-        link: "#"
-        tagline: "Working within a small, agile team, primarily responsible for the development and continuous delivery for the Enforcement and Rates/Restrictions domains."
-      - project:
-        title: Intergen — Software Developer in Enterprise Applications
-        link: "#"
-        tagline: "Worked as a developer in consulting services, for a wide variety of client companies."
+        title: terraform-provider-keboola
+        link: "https://github.com/plmwong/terraform-provider-keboola"
+        tagline: "A custom provider for Terraform, enabling management of resources in Keboola Connection (KBC)."
 
 # publications:
 #     title: Publications
-#     intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+#     intro: 'A few of my academic publications in Genetic Programming, a full list is available at <a href="http://www.cs.bham.ac.uk/~wbl/biblio/gp-html/PhillipWong.html">http://www.cs.bham.ac.uk/~wbl/biblio/gp-html/PhillipWong.html</a>'
     
 #     publications:
 #       - paper:
-#         title: The Art of Computer Programming
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
+#         title: Explicitly Simplifying Evolved Genetic Programs During Evolution
+#         authors: Mengjie Zhang and Phillip Wong
+#         conference: International Journal of Computational Intelligence and Applications, 7(2):201-232, 2008
 #       - paper:
-#         title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#         title: "Genetic programming for medical classification: a program simplification approach"
+#         authors: Mengjie Zhang and Phillip Wong
+#         conference: "Genetic Programming and Evolvable Machines, 9(3):229-255, 2008"
 #       - paper:
-#         title: A syntax directed compiler for Algol 60
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
+#         title: "SCHEME: Caching Subtrees in Genetic Programming"
+#         authors: Phillip Wong and Mengjie Zhang
+#         conference: "2008 IEEE World Congress on Computational Intelligence, pages 2678-2685, Hong Kong, 2008"
 
 skills:
-    title: Skills &amp; Proficiency
-    skills:
-        - skill:
-          name: C#, .NET
-          level: 90%
-        - skill:
-          name: Javascript, NodeJS, AngularJS
-          level: 75%
-        - skill:
-          name: HTML5, CSS
-          level: 75%
+    title: Abilities
+    skill-groups:
+      - skills:
+          - skill:
+            name: C#, .NET, SQL
+            level: 100% # high
+          - skill:
+            name: Javascript, AngularJS, HTML5, CSS
+            level: 66% # mid
+          - skill:
+            name: Python, NodeJS, Golang, C++
+            level: 33% # low
+      - skills:
+          - skill:
+            name: Agile, Scrum, Kanban, Automated Testing
+            level: 100%
+          - skill:
+            name: Test Driven Development (TDD), Domain Driven Design (DDD)
+            level: 66%
 
 
 footer: 
