@@ -1,0 +1,23 @@
+{% if site.data.data.positions %}
+<section class="section positions-section">
+
+  <h2 class="section-title"><i class="fa fa-archive"></i>{{ site.data.data.positions.title }}</h2>
+
+  {% for position in site.data.data.positions.positions %}
+    <div class="item">
+
+      <span class="position-title"><a href="{{ position.link }}">{{ position.title }}</a></span>
+
+      {% if position.dates %}
+      <span class="position-dates">{{ position.dates }}</span>
+      {% endif %}
+
+      {% if position.tagline %}
+      <p><span class="position-tagline">{{ position.tagline }}</span></p>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
